@@ -20,7 +20,7 @@ cargo run -p pistonmoduleworldcargo
 ## App:
 | Package           | Crates    | Name                      | server    | client    | App   | Status    | Lib   |
 |---                | ---       |---                        | ---       | ---       |---    | --        | ---   |
-| imgui             | 120       | imguimodule               | [checkbox:unchecked]       | [checkbox:unchecked]       | [checkbox:checked]   | [checkbox:unchecked]        | [checkbox:unchecked]    |
+| imgui             | 120       | imguimodule               | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
 | amethyst          | 446       | amethystmoduleworld       | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
 | kiss3d            | 154       | kiss3dnmoduleworld        | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
 | piston            | 142       | pistonmoduleworld         | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
@@ -32,6 +32,11 @@ cargo run -p pistonmoduleworldcargo
 ### Legend:
  * wip = work in progress
  * m = main
+
+## Features:
+ * [ ] editor
+ * [ ] scene
+
 
 ## ref:
  * http://arewegameyet.com
