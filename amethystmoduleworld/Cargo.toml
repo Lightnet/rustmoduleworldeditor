@@ -8,6 +8,11 @@ edition = "2018"
 
 [dependencies]
 
+# cargo run -p amethystmoduleworld
+[dependencies.amethyst-imgui]
+version = "0.3.1"
+#features = ["vulkan"]
+
 #https://book.amethyst.rs/stable/pong-tutorial/pong-tutorial-01.html
 [dependencies.amethyst]
 version = "0.12.0"
