@@ -27,7 +27,7 @@ cargo run -p pistonmoduleworldcargo
 | ggez              | 239       | ggezmoduleworld           | o         | o         | x     | o         | o     |
 | dyon              | 78        | dyonmodule                | o         | o         | x     | o         | o     |
 | nphysics3d        | 167       | nphysics3d                | o         | o         | x     | o         | o     |
-|                   |           |                           | o         | o         | x     | o         | o     |
+| gfx               | 66        | gfxmodule                 | o         | o         | x     | o         | o     |
 
 ### Legend:
  * wip = work in progress

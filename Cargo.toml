@@ -7,5 +7,6 @@ members = [
     "kiss3dnmoduleworld",
     "ggezmoduleworld",
     "dyonmodule",
-    "nphysics3dmodule"
+    "nphysics3dmodule",
+    "gfxmodule"
 ]
