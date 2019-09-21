@@ -20,18 +20,18 @@ cargo run -p pistonmoduleworldcargo
 ## App:
 | Package           | Crates    | Name                      | server    | client    | App   | Status    | Lib   |
 |---                | ---       |---                        | ---       | ---       |---    | --        | ---   |
-| imgui             | 120       | imguimodule               | o         | o         | x     | o         | o     |
-| amethyst          | 446       | amethystmoduleworld       | o         | o         | x     | o         | o     |
-| kiss3d            | 154       | kiss3dnmoduleworld        | o         | o         | x     | o         | o     |
-| piston            | 142       | pistonmoduleworld         | o         | o         | x     | o         | o     |
-| ggez              | 239       | ggezmoduleworld           | o         | o         | x     | o         | o     |
-| dyon              | 78        | dyonmodule                | o         | o         | x     | o         | o     |
-| nphysics3d        | 167       | nphysics3d                | o         | o         | x     | o         | o     |
-| gfx               | 66        | gfxmodule                 | o         | o         | x     | o         | o     |
+| imgui             | 120       | imguimodule               | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
+| amethyst          | 446       | amethystmoduleworld       | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
+| kiss3d            | 154       | kiss3dnmoduleworld        | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
+| piston            | 142       | pistonmoduleworld         | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
+| ggez              | 239       | ggezmoduleworld           | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
+| dyon              | 78        | dyonmodule                | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
+| nphysics3d        | 167       | nphysics3d                | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
+| gfx               | 95        | gfxmodule                 | [ ]       | [ ]       | [x]   | [ ]       | [ ]   |
 
 ### Legend:
  * wip = work in progress
- * 
+ * m = main
 
 ## ref:
  * http://arewegameyet.com

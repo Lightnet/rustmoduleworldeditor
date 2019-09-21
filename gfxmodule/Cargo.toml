@@ -7,6 +7,10 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cgmath = "0.17.0"
 gfx = "0.18"
-glutin = "0.21.1"
-gfx_window_glutin = "0.31.0"
+gfx_app = "0.9.0"
+#glutin = "0.21.1"
+#gfx_window_glutin = "0.31.0"
+#image = "0.22.2"
+#rand = "0.7.2"
