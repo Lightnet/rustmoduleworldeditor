@@ -4,17 +4,50 @@ version = "0.1.0"
 authors = ["Lightnet <>"]
 edition = "2018"
 
+# cargo run -p amethystmoduleworld
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "amethystmoduleworld"
+#path = "src/main.rs"
+#path = "src/hello.rs"
+#path = "src/amethystimguiapp.rs"
+#path = "src/amethysteditorapp.rs"
+path = "src/amethystapp.rs"
+
 [dependencies]
+#amethyst-imgui = { version = "0.3"}
+#amethyst-imgui = { version = "0.3.1", features = ["vulkan"] }
+#amethyst-imgui = { path = "../../amethyst-imgui", features = ["vulkan"] }
+#imgui = "0.2.1"
+#imgui-winit-support = "0.2.1"
 
-# cargo run -p amethystmoduleworld
-#[dependencies.amethyst-imgui]
-#version = "0.3.1"
-#features = ["vulkan"]
+#tap = "0.4.0"
+#amethyst-editor-sync = "0.4.0"
+#crossbeam-channel = "0.3.2"
+#log = "0.4.4"
+#log-once = "0.2.0"
+#serde = { version = "1.0", features = ["derive"] }
+#serde_json = "1.0"
+#shred-derive = "0.5"
 
-#https://book.amethyst.rs/stable/pong-tutorial/pong-tutorial-01.html
+[dev-dependencies]
+env_logger = "0.5.13"
+#skeptic = "0.13"
+#tap = "0.3.0"
+
+#[build-dependencies]
+#skeptic = "0.13"
+
 [dependencies.amethyst]
 version = "0.12.0"
-#default-features = false
 features = ["vulkan"]
+
+#[dependencies.amethyst-imgui]
+#version = "0.3.1"
+#path = "../../amethyst-imgui"
+#path = "https://github.com/amethyst/amethyst.git"
+
+
+

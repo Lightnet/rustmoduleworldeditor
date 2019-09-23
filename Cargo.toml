@@ -1,12 +1,16 @@
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
 [workspace]
 
 members = [
-    "imguimodule",
     "amethystmoduleworld",
     "pistonmoduleworld",
     "kiss3dnmoduleworld",
     "ggezmoduleworld",
     "dyonmodule",
     "nphysics3dmodule",
-    "gfxmodule"
+    "gfxmodule",
+    "imguimodule"
 ]
+
+## exclude = ["path1", "path/to/dir2"]

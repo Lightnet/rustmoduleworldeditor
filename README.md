@@ -16,6 +16,11 @@ cargo run -p imgui-app
 cargo run -p amethystmoduleworld
 cargo run -p kiss3dnmoduleworld
 cargo run -p pistonmoduleworldcargo 
+
+https://github.com/rust-lang/rustup.rs
+
+rustup default nightly //latest of rust
+rustup default stable //latest of rust
 ```
 ## App:
 | Package           | Crates    | Name                      | server    | client    | App   | Status    | Lib   |
@@ -34,17 +39,38 @@ cargo run -p pistonmoduleworldcargo
  * m = main
 
 ## Features:
- * [ ] editor
+```
+ * application
+  * gui layout
   * [ ] save
   * [ ] load
+  * [ ] config
+  * [ ] rules
+  * [ ] scene
+  * [ ] item
+  * [ ] equip
+  * [ ] gui
+  * [ ] creatures
+  * [ ] skills
+  * [ ] combat
+  * [ ] physics
+  * [ ] voxel
+  * [ ] terrain
+  * [ ] prefab
+ * [ ] editor
+  * gui layout
  * [ ] game mode
-  *  [ ] 
- * [ ] scene
- * [ ] item
- * [ ] equip
- * [ ] rules
- * [ ] gui
-
+  * [ ] survival
+    * gui layout
+  * [ ] duel
+    * gui layout
+  * [ ] battle arena
+    * gui layout
+  * [ ] quest
+    * gui layout
+  * [ ] mission
+    * gui layout
+```
 
 
 ## ref:
