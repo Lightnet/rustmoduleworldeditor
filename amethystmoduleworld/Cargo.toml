@@ -16,6 +16,14 @@ name = "amethystmoduleworld"
 #path = "src/amethysteditorapp.rs"
 path = "src/amethystapp.rs"
 
+[[bin]]
+name = "amethystserver"
+path = "src/server.rs"
+
+[[bin]]
+name = "amethystclient"
+path = "src/client.rs"
+
 [dependencies]
 #amethyst-imgui = { version = "0.3"}
 #amethyst-imgui = { version = "0.3.1", features = ["vulkan"] }
@@ -26,7 +34,7 @@ path = "src/amethystapp.rs"
 #tap = "0.4.0"
 #amethyst-editor-sync = "0.4.0"
 #crossbeam-channel = "0.3.2"
-#log = "0.4.4"
+log = "0.4.4"
 #log-once = "0.2.0"
 #serde = { version = "1.0", features = ["derive"] }
 #serde_json = "1.0"
